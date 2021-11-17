@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="theme-color" content="#6f42c1" />
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>oneecca.com-whatsapp-orders-form</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-10 p-b-10 font-poppins">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-4">
+                <div class="grid-container">
+                  <div>
+                    <label class="lbl0">Oneecca </label><br>
+                    <label class="lbl1"> Orders Form WhatsApp </label>
+                  </div>
+                    <div>
+                      <img src="Oneecca.svg" alt="oneecca">
+                    </div>
+                  </div>
+                      <div class="gs1"></div>
+                    <form method="POST">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Nama</label>
+                                    <input class="input--style-4a" type="text" placeholder="boleh nama singkat/ nama panggilan aja kak.. " name="first_name">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Alamat</label>
+                                    <input class="input--style-4a" type="text" placeholder="alamat pendek aja kak.. | ex : Pare, Lahat-Sumsel, Jakarta, Kediri, " name="last_name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Dipakai tanggal</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4a js-datepicker" placeholder="Kapan baju akan dipakai?" type="text" name="birthday">
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Diambil tanggal</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4a js-datepicker " placeholder="Kapan baju rencana diambil?" type="text" name="birthday">
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="row row-space">
+                            <label class="label">Made for..</label>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <div class="p-all">
+                                        <label class="radio-container m-r-a">Dimiliki
+                                            <input type="radio" checked="checked" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container m-r-a">Sewa perdana
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container m-r-a">Sewa yg ada di Oneecca
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      -->
+  <!-- ====================
+classic radio
+========================-->
+<!--
+<label class="radio">Company
+  <input type="radio" checked="checked" name="is_company">
+  <span class="checkround"></span>
+</label>
+<label class="radio">Company
+  <input type="radio" name="is_company">
+  <span class="checkround"></span>
+</label>
+<label class="radio">Company
+  <input type="radio" name="is_company">
+  <span class="checkround"></span>
+</label>
+<label class="radio">Company
+  <input type="radio" name="is_company">
+  <span class="checkround"></span>
+</div>
+-->
+<!-- ====================
+ Coba block radio
+========================-->
+
+
+  <form class="frma">
+  <div class="gs2"></div>
+  <label class="label">Made for...</label>
+  <div class="inGrp">
+    <input id="radio2" name="radio" type="radio"/>
+    <label for="radio2">Sewa Perdana</label>
+  </div>
+  <div class="inGrp">
+    <input id="radio1" name="radio" type="radio"/checked>
+    <label for="radio1">Dimiliki</label>
+  </div>
+  <div class="inGrp">
+    <input id="radio3" name="radio" type="radio"/>
+    <label for="radio3">Sewa yang ada di Oneecca [sewa second]</label>
+  </div>
+
+  <div class="gs2"></div>
+  <label class="label">Make a...</label>
+  <div class="inGrp">
+    <input id="radio4" name="make a" type="radio"/checked>
+    <label for="radio4">Full/ Atasan &amp; Bawah/ Dress</label>
+  </div>
+  <div class="inGrp">
+    <input id="radio5" name="make a" type="radio"/>
+    <label for="radio5">Atasan saja</label>
+  </div>
+  <div class="inGrp">
+    <input id="radio6" name="make a" type="radio"/>
+    <label for="radio6">Bawah saja</label>
+  </div>
+
+    <div class="gs2"></div>
+    <label class="label">Bahan Kain...</label>
+    <div class="inGrp">
+      <input id="radio7" name="bahan" type="radio"/checked>
+      <label for="radio7">Bawa Sendiri</label>
+    </div>
+    <div class="inGrp">
+      <input id="radio8" name="bahan" type="radio"/>
+      <label for="radio8">Bawa sebagian, nanti ditambahin Oneecca</label>
+    </div>
+    <div class="inGrp">
+      <input id="radio9" name="bahan" type="radio"/>
+      <label for="radio9">Oleh Oneecca/ Pilih di Oneecca</label>
+    </div>
+
+</form>
+
+<!--                          <div class="col-md-6">
+                              <label class="label">Made for..</label>
+                          </div>
+                            <div class="col-0">
+                              <label class="radio-container m-r-a">Dimiliki
+                                <input type="radio" checked="checked" name="hak">
+                                <span class="checkmark"></span>
+                            </label>
+                              <label class="radio-container m-r-a">Sewa perdana
+                                  <input type="radio" name="gender">
+                                  <span class="checkmark"></span>
+                              </label>
+                              <label class="radio-container m-r-a"><small>Sewa yg ada di Oneecca</small>
+                                  <input type="radio" name="gender">
+                                  <span class="checkmark"></span>
+                              </label>
+                            </div>
+                          -->
+                          <div class="card3 bg-gra-03">
+                                      <div class="col-md-2">
+                                          <label class="lblb">Attire</label>
+                                          <div class="gs2b"></div>
+                                                  <div class="col-md-6">
+                                                  </div>
+                                                    <div class="input-group">
+                                                        <label class="lbl2b">Dress Code - Acara</label>
+
+                                                            <select name="subject" class="fom-c">
+                                                                <option disabled="disabled" selected="selected">--- Pilih acara ---</option>
+                        <option value="Santai">Santai  [sehari-hari]</option>
+                        <option value="Wedding">Wedding / Nikahan / Baju Manten</option>
+                        <option value="Keluarga Manten">Family Wedding Dress / Keluarga Manten </option>
+                        <option value="Bridesmaid">Bridesmaid </option>
+                        <option value="Pgr Ayu">Pagar Ayu / Among Tamu </option>
+                        <option value="Pre-Wed">Pre-Wedding</option>
+                        <option value="Lamaran">Engagement / Lamaran</option>
+                        <option value="Kondangan">Kondangan / Party Dress</option>
+                        <option value="Ultah">Ulang Tahun</option>
+                        <option value="MC">MC / Master of Ceremony</option>
+                        <option value="Event Ptg">Event Penting</option>
+                        <option value="Keluarga">Family Event / Acara Keluarga</option>
+                        <option value="Maternity">Maternity / Momen Kehamilan</option>
+                        <option value="Foto">Foto Grafi</option>
+                        <option value="Baju Krja">Baju Kerja</option>
+                        <option value="-">Lainya</option>
+                                                            </select>
+
+                                                    </div>
+                                                      <div class="input-group">
+                                                          <label class="lbl2b">Payet</label>
+                                                              <select name="subject" class="fom-c">
+                                                                  <option disabled="disabled" selected="selected">-- pilih desain / penggunaan payet --</option>
+                                                                  <option value="X">Tanpa Payet</option>
+                                                                  <option value="Full pyt">Full payet</option>
+                                                                  <option value="Semi Full">Semi full payet</option>
+                                                                  <option value="Inti">Payet inti saja</option>
+                                                                  <option value="sesuai gmbr">Sesuai gambar yg akan saya kirim</option>
+                                                                  <option value="konsultasi">baiknya gimana?</option>
+                                                              </select>
+                                                      </div>
+                                                        <div class="gs0"></div>
+                                                      <form class="frmb">
+                                                        <label class="lbl2b">Kerudung/ Jilbab/ Hijab</label>
+                                                        <div class="inGrp">
+                                                          <input id="radio13" name="hjb" type="radio"/checked>
+                                                          <label for="radio13">dengan Hijab </label>
+                                                        </div>
+                                                        <div class="inGrp">
+                                                          <input id="radio14" name="hjb" type="radio"/>
+                                                          <label for="radio14">Non Hijab - tanpa Hijab </label>
+                                                        </div>
+                                                          <div class="gs0"></div>
+                                                        <label class="lbl2b">Desain Baju yang diimpikan</label>
+                                                        <div class="inGrp">
+                                                          <input id="radio10" name="dsn" type="radio"/checked>
+                                                          <label for="radio10">Kirim foto contoh <h6> model desain sesuai foto-gambar</h6> </label>
+                                                        </div>
+                                                        <div class="inGrp">
+                                                          <input id="radio11" name="dsn" type="radio"/>
+                                                          <label for="radio11">Kirim foto &amp; sesuaikan <h6> konsultasikan desain bersama Oneecca</h6> </label>
+                                                        </div>
+                                                        <div class="inGrp">
+                                                          <input id="radio12" name="dsn" type="radio"/>
+                                                          <label for="radio12">Bingung modelnya gimana.. <h6> inspirasi/ saran desain dari Oneecca</h6> </label>
+                                                        </div>
+                                                      <div class="row row-space">
+                                                        <div class="gs0"></div>
+                                                          <div class="col-2">
+                                                            <div class="input-group">
+                                                                <label class="lbl2b">Tinggi Badan [ cm ]</label>
+                                                                <input class="input--style-4" type="number" placeholder="ex : 140, 153, 168" name="tb">
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-2">
+                                                            <div class="input-group">
+                                                                <label class="lbl2b">Berat Badan [ Kg ]</label>
+                                                                <input class="input--style-4" type="number" placeholder="ex : 48, 52, 60, 70" name="bb">
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-2">
+                                                            <div class="input-group">
+                                                                <label class="lbl2b">Warna Kulit</label>
+                                                                <input class="input--style-4" type="text" placeholder="ex : cerah, gelap, sawo matang, kuning langsat ... " name="wk">
+                                                            </div>
+                                                          </div>
+                                                      </div>
+
+                                                      </form>
+
+                                            </div>
+                            </div>
+                        <div class="p-t-15a">
+                            <button class="btn btn--radius-2 btn--def" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
